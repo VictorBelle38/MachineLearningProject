@@ -21,6 +21,9 @@ O projeto inclui:
 O projeto inclui a comparação de dois modelos de Machine Learning:
 
 Tabela Organizada
+
+
+
 ![Tabela de Comparação](imagens/Tabela_Comparacao.png)
 
 
