@@ -21,7 +21,7 @@ O projeto inclui:
 O projeto inclui a comparação de dois modelos de Machine Learning:
 
 Tabela Organizada
-!(imagens/Tabela de comparação dos modelos.png)
+![Tabela de Comparação](imagens/Tabela de comparação dos modelos.png)
 
 
 Método	MSE de Treino	R² de Treino	MSE de Teste	R² de Teste
