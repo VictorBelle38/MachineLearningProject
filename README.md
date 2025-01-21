@@ -18,17 +18,45 @@ O projeto inclui:
 - Treinamento de modelos de Machine Learning (Regressão Linear e Random Forest).
 - Avaliação dos modelos usando métricas como RMSE e R².
 
----
+O projeto inclui a comparação de dois modelos de Machine Learning:
 
-## Estrutura do Projeto
+Tabela Organizada
 
-/MachineLearningProject/
-├── /data/ # Pasta para armazenar os dados
-│ └── delaney_solubility_with_descriptors.csv # Dataset original
-├── /notebooks/ # Pasta para armazenar notebooks
-│ └── Machine_Learning_Project.ipynb # Notebook principal
-├── /scripts/ # Pasta para scripts auxiliares
-│ ├── preprocessamento.py # Script de pré-processamento
-│ └── train.py # Script de treinamento e avaliação
-├── README.md # Arquivo README principal
-└── requirements.txt # Lista de dependências do projeto
+
+Método	MSE de Treino	R² de Treino	MSE de Teste	R² de Teste
+Regressão Linear	1.007536	0.764505	1.020695	0.789162
+Random Forest	1.028228	0.759669	1.407688	0.709223
+Interpretação dos Valores
+1. Regressão Linear
+MSE de Treino: 1.007536
+
+O erro quadrático médio no conjunto de treino é de aproximadamente 1.008.
+
+R² de Treino: 0.764505
+
+O modelo explica 76.45% da variabilidade dos dados no conjunto de treino.
+
+MSE de Teste: 1.020695
+
+O erro quadrático médio no conjunto de teste é de aproximadamente 1.021.
+
+R² de Teste: 0.789162
+
+O modelo explica 78.92% da variabilidade dos dados no conjunto de teste.
+
+2. Random Forest
+MSE de Treino: 1.028228
+
+O erro quadrático médio no conjunto de treino é de aproximadamente 1.028.
+
+R² de Treino: 0.759669
+
+O modelo explica 75.97% da variabilidade dos dados no conjunto de treino.
+
+MSE de Teste: 1.407688
+
+O erro quadrático médio no conjunto de teste é de aproximadamente 1.408.
+
+R² de Teste: 0.709223
+
+O modelo explica 70.92% da variabilidade dos dados no conjunto de teste.
