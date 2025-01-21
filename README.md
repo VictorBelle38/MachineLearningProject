@@ -27,9 +27,7 @@ Tabela Organizada
 ![Tabela de Comparação](imagens/Tabela_Comparacao.png)
 
 
-Método	MSE de Treino	R² de Treino	MSE de Teste	R² de Teste
-Regressão Linear	1.007536	0.764505	1.020695	0.789162
-Random Forest	1.028228	0.759669	1.407688	0.709223
+
 Interpretação dos Valores
 1. Regressão Linear
 MSE de Treino: 1.007536
@@ -64,3 +62,22 @@ O erro quadrático médio no conjunto de teste é de aproximadamente 1.408.
 R² de Teste: 0.709223
 
 O modelo explica 70.92% da variabilidade dos dados no conjunto de teste.
+
+
+## Visualização de Dados
+
+### Comparação dos Modelos
+O gráfico abaixo compara as previsões dos modelos de Regressão Linear e Random Forest com os valores reais:
+
+![Comparação dos Modelos](imagens/Linear_Regression_Model.png)
+
+
+
+
+
+
+
+
+
+![Random Forest](imagens/Random_Forest_Model.png)
+
