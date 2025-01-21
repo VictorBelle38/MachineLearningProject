@@ -14,5 +14,5 @@ def train_model_regressao(x,y):
 def train_model_forest(X,Y):
     X_train, X_test, Y_train, Y_test = ms(X,Y, test_size=0.2,random_state=100)
     rf = RandomForestRegressor(max_depth=2,random_state=100)
-    rf.fit(X_train, Y_train)
+    rf.fit(x_train, y_train)
 
